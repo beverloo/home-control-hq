@@ -19,7 +19,7 @@ based on Chromium 90. Each display controls a single room.
 Controlling Philips Hue is enabled by the [node-hue-api](https://www.npmjs.com/package/node-hue-api)
 library. Each service entry controls either a named group or room.
 
-```json
+```json5
 {
     "label": "Lights",
     "service": "Philips Hue",
@@ -58,7 +58,7 @@ npm install
 ```
 
 ## Configuration (`home-configuration.json`)
-```json
+```json5
 {
     "Room name": [
         // Service entries go here.
